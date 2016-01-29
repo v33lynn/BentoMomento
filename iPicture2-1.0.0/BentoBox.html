@@ -1,0 +1,117 @@
+<!DOCTYPE html>​
+​<html lang="en">​
+	<head>​
+		<meta charset="utf-8"/>​
+		<title> Bento </title>​
+		<meta name="description" content="ProjectWeek2"/>​
+		<link rel="stylesheet" type="text/css" media="screen" href="css/iPicture.css"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ipicture.js"></script>
+		<script type="text/javascript">
+
+		$(document).ready(function() {
+			$('#iPicture').iPicture(function(){
+				console.log("We made it");
+			});
+		});
+		</script> 
+
+	</head>
+	<body>
+	<div id="iPicture" data-interaction="hover">
+		<div class="ip_slide">
+		    <img class="ip_tooltipImg" src="yoshi.jpg">
+		    
+		    <textarea rows="40" cols="80"> Chat Room Here ! User#1 : Messageorcommentsaboutthisparticularbentoboxdesignsjdoisjaoifheijw;lsihgioehghs;fdf;idsfj;oidfj 
+		    ------------------------------------------------------------------
+		    User#2 : Messageorcommentsaboutthisparticularbentoboxdesignsjdoisjaoifheijw;lsihgioehghs;fdf;idsfj;oidfj 
+		    </textarea>
+
+		    <div class="ip_tooltip ip_img32" style="top: 462px; left: 134px;" data-button="moreorange" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="ltr-slide">
+		    <p> Hiragana: にんじん <img src="carrot.jpg"></p>
+		    </div>
+
+		    <div class="ip_tooltip ip_img32" style="top: 116px; left: 138px;" data-button="morelightviolet" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="ttb-slide">
+		    <p> something here ! </p>
+		    </div>
+
+		    <div class="ip_tooltip ip_img32" style="top: 536px; left: 250px;" data-button="moregold" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="ttb-slide">
+		    <p> something here ! </p>
+		    </div>
+
+		    <div class="ip_tooltip ip_img32" style="top: 277px; left: 307px;" data-button="moregreen" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="ltr-slide">
+		    <p> Birth of Yoshi: <img src="yoshi.gif"/> </p>
+		    </div>
+		</div>
+
+
+  	<div class="ip_slide">
+		<img class="ip_tooltipImg" src="simpsons.jpg">
+	    <div class="ip_tooltip ip_img32" style="top: 188px; left: 477px;" data-button="beadyellow" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="rtl-slide">
+	    <p> something here ! </p>
+	    </div>
+
+	    <div class="ip_tooltip ip_img32" style="top: 146px; left: 134px;" data-button="beadlightblue2" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="btt-slide">
+	    <p> something here ! </p>
+	    </div>
+
+	    <div class="ip_tooltip ip_img32" style="top: 284px; left: 41px;" data-button="beadgreen" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="btt-slide">
+	    <p> something here ! </p>
+	    </div>
+
+	    <div class="ip_tooltip ip_img32" style="top: 337px; left: 346px;" data-button="beadlightviolet" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="ltr-slide">
+	    <p> 
+		<form action="/createCaption" method="post">​ <br> 	
+
+		<label> Homer Says... </label>​
+
+		<textarea name='caption' cols="22" rows="8"></textarea>​
+		<br> <br> 
+	    <br>
+		<input type="submit" value="Add Caption">​ &nbsp; &nbsp;
+
+		</form>​  </p>
+	    </div>
+
+	    <div class="ip_tooltip ip_img32" style="top: 74px; left: 331px;" data-button="beadgrey" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="btt-slide">
+	    <p> something here ! </p>
+	    </div>
+	</div>
+
+	<div class="ip_slide">
+	    <img class="ip_tooltipImg" src="chewbacca.jpg">
+	    <div class="ip_tooltip ip_img32" style="top: 546px; left: 385px;" data-button="moregreen" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="rtl-slide">
+	    <p> something here ! </p>
+	    </div>
+
+	    <div class="ip_tooltip ip_img32" style="top: 143px; left: 117px;" data-button="moregrey" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="ltr-slide">
+	    <p> something here ! </p>
+	    </div>
+
+	    <div class="ip_tooltip ip_img32" style="top: 277px; left: 263px;" data-button="morered" data-tooltipbg="bgblack" data-round="roundBgW" data-animationtype="ltr-slide">
+	    <p> <audio controls> <source src="ChewbaccaWookieNoise.mp3" type="audio/ogg"> </audio> </p>
+	    </div>
+
+	    <div class="ip_tooltip ip_img32" style="top: 452px; left: 88px;" data-button="moregold" data-tooltipbg="bgwhite" data-round="roundBgB" data-animationtype="btt-slide">
+	    <p> Make Korroke !<iframe width="560" height="315" src="https://www.youtube.com/embed/FVEJDJWDas0" frameborder="0" allowfullscreen></iframe> </p>
+	    </div>
+	</div>
+
+
+	<div id="" style="overflow:scroll; width:400px;">
+	<span href="#" class="prev control" id="leftControl" style="display: block;"><em>prev</em></span>
+	</div>
+
+
+	</div>
+
+<script>
+  $( "#iPicture" ).iPicture(function(){
+				console.log("We made it");
+			});
+</script>
+
+
+	</body>
+</html>

@@ -1,0 +1,14 @@
+*/ outline {
+	border: 1px solid black
+}
+
+<style>
+  #simspsons, #angrybirds, #wallacegromit, #yoshi, #chewbacca {
+     width: 900px;      
+     height: 528px;     
+     position: relative;
+     margin:0 auto;
+     border-outline: 1px solid black;
+  }
+
+</style>
